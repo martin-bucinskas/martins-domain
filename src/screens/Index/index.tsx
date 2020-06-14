@@ -1,15 +1,14 @@
-// @ts-ignore
-import React from 'react';
+import * as React from 'react';
 import Header from '../../containers/Header';
 import Title from '../../containers/Title';
 import Projects from '../../containers/Projects';
 import Latest from '../../containers/Latest';
-import Footer from "../../containers/Footer";
+import Footer from '../../containers/Footer';
 
 const Index = () => {
 
     return (
-      <div className="root-container">
+      <div className="container">
         <Header />
         <Title />
         <Projects />
