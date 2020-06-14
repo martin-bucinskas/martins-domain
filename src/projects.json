@@ -1,6 +1,42 @@
 {
   "projects": [
     {
+      "title": "Dropwise",
+      "description": "Dropwise is a smart oil meter for home and industrial use. Created the firmware for the Texas Instruments MSP432 microcontroller in C++ which tracks the precise usage of oil, pushes data to InfluxDB via MQTT broker. Written the backend in JavaScript and was responsible for creating a prediction algorithm based on previous usage and other external factors. Created a PWA frontend using React to display metrics. Wrote an API for oil suppliers to integrate with the system.",
+      "stack": {
+        "languages": ["C++", "JavaScript"],
+        "frameworks": ["React", "Loopback"],
+        "others": ["MSP432", "Docker", "Kubernetes", "MongoDB", "InfluxDB", "MQTT"]
+      },
+      "images": {
+        "desktop": ""
+      }
+    },
+    {
+      "title": "Asylum & Immigration CI Team",
+      "description": "Joined a newly formed continuous improvement team for Her Majesty's Courts and Tribunals Service - Asylum and Immigrations in an attempt to boost the throughput of critical requirements being implemented, reducing the backlogged items in the value stream and getting them into production. Maintained a multitude of microservices to provide online case appeal services to the public.",
+      "stack": {
+        "languages": ["Java"],
+        "frameworks": ["Spring Boot", "Gradle"],
+        "others": ["Docker", "Helm", "Kubernetes", "PostgreSQL"]
+      },
+      "images": {
+        "desktop": ""
+      }
+    },
+    {
+      "title": "Loki",
+      "description": "Loki is a serverless ETL tool for normalising multi source data into a single source of truth. Implemented the concept in python on the serverless framework which deploys as AWS lambdas. Extracts and transforms the data into an in-house purpose built PostgreSQL single source of truth database for analysis by the data scientists.",
+      "stack": {
+        "languages": ["Python", "Terraform"],
+        "frameworks": ["Serverless"],
+        "others": ["PostgreSQL", "AWS"]
+      },
+      "images": {
+        "desktop": ""
+      }
+    },
+    {
       "title": "Electronic Visa Waiver",
       "description": "Full-stack development for the Home Office - Electronic Visa Waiver project. Working on the customer facing part of the project, updating legacy code to a more modern express, whilst maintaining the GDS styling. Migrating to the application container platform (ACP) built to run GOV projects.",
       "stack": {
