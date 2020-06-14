@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "title": "Electronic Visa Waiver",
+      "description": "Full-stack development for the Home Office - Electronic Visa Waiver project. Working on the customer facing part of the project, updating legacy code to a more modern express, whilst maintaining the GDS styling. Migrating to the application container platform (ACP) built to run GOV projects.",
+      "stack": {
+        "languages": ["JavaScript"],
+        "frameworks": ["Express", "Nunjucks", "GDS prototype kit", "Cucumber"],
+        "others": ["Docker", "ACP", "MongoDB"]
+      },
+      "images": {
+        "desktop": "projects/evw.png"
+      }
+    }
+  ]
+}

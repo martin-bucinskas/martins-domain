@@ -1,0 +1,8 @@
+.profile-picture {
+  // Justify content and align content does not center the items.
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-left: 60px; // This should not be here.
+  padding-top: 20px;
+}
